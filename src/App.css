@@ -1,5 +1,98 @@
+
+/* 
+
+.custom-card {
+  width: 100%;
+  max-width: 259px;
+  font-family: Comic Sans MS;
+  justify-content: space-between;
+  border-radius: 21px;
+  margin-left: -4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 21px;
+  transition: width 6s;
+  overflow: hidden;
+  height: 300px;
+}
+
+.cuisine{
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+} */ 
+
+.header_section{
+  box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+}
+
 .custom-card{
   width: 100%;
   max-width: 200px;
+  font-size: 18px;
+}
 
+.font{
+  font-family: "Comfortaa", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+}
+.custom-card img{
+  border-radius: 10px;
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.custom-card img:hover{
+  opacity: 0.5;
+}
+
+.cuisines{
+  display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.imgscroll{
+    overflow: scroll hidden;
+    scrollbar-width: none;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.shadow{
+  box-shadow: 0px 0px 2px 0px #d5d5d5;
+}
+
+.imgContainer, .nameContainer, .cuisineContainer, .areaContainer, .ratingContainer, .timeContainer{
+  width: 100%;
+  background-color: rgb(235,233,233);
+  height: 10px;
+}
+
+.imgContainer{
+  height: 150px;
+}
+
+.ratingContainer, .timeContainer{
+  width: 40px;
+}
+
+#searchBox {
+  width: 35%;
+  margin-right: 9px;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+#search{
+padding: 6px;
+    border-radius: 5px;
+    width: 90px;
+    background-image: linear-gradient(45deg, #57de51, transparent);
 }

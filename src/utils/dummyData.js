@@ -1,9 +1,4 @@
-const masterData =[{
-    
-}]
-  const master =[// 20240210084839
-  // https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.07480&lng=72.88560&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
-  
+const masterData =[
   {
     "statusCode": 0,
     "data": {
@@ -7423,3 +7418,5 @@ const masterData =[{
     "deviceId": "f287041d-e8fc-c9c9-ccb9-ed80051d180c",
     "csrfToken": "96aexHrdeXFz-QXdPl4miMAZ85RV_g6DOnp5K1aw"
   }]
+
+  export default masterData ;

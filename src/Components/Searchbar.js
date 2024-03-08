@@ -1,7 +1,7 @@
 
 const Searchbar = () => {
     return(
-        <h3> I am a searchbar components </h3>
+        <h3>  components </h3>
     );
 }
 

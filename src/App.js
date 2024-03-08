@@ -3,8 +3,9 @@ import './App.css';
 import Header from './Components/Header';
 import Body from './Components/Body';
 import Footer from './Components/Footer';
-
-
+import About from './Components/About';
+import Contact from './Components/Contact';
+import { Outlet } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
@@ -23,8 +24,9 @@ function App() {
         </a>
       </header> */}
       <Header/>
-         <Body/>
-      <Footer/>
+      <Outlet/>
+         
+      
       
     </div>
   );
