@@ -14,7 +14,7 @@ const Restaurantcard = ({cloudinaryImageId ,name,avgRating,sla,cuisines,areaName
           </div>
           <div className="cuisines font">{name}</div>
           <div className="d-flex justify-content-between font">
-              <div className="bg-success text-white px-2 font">⭐{avgRating}/10</div>
+              <div className="bg-success text-white px-2 font">⭐{avgRating}/5</div>
               <div>{sla?.deliveryTime} mins</div>
           </div>
           <div className="text-secondary cuisines">{cuisines}</div>
